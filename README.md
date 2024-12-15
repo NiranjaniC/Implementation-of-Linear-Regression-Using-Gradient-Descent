@@ -20,12 +20,10 @@ STEP 5. Plot the Cost function using Gradient Descent and generate the required 
 
 STEP 6.End the Program.
 ## Program:
-```
-/*
+
 Program to implement the linear regression using gradient descent.
 Developed by: 
 RegisterNumber:  
-*/
 ```
 import numpy as np
 import pandas as pd
@@ -58,7 +56,7 @@ prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(f"Predicted value: {pre}")
 
-
+```
 ## Output:
 ![Screenshot 2024-08-30 190042](https://github.com/user-attachments/assets/5a8d6036-6c36-4f71-8a39-3a2940f9457d)
 
